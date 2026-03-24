@@ -1,17 +1,15 @@
 backend:
-  name: gitea
-  repo: stefenmarg/stefenmargs-eleventy-cms-template
-  app_id: a84147cd-dce1-4a2f-b698-d5f144f82433
+  name: github
+  repo: CitreCrows/citre-crows
   branch: main
-  api_root: https://codeberg.org/api/v1
-  base_url: https://codeberg.org
-  auth_endpoint: https://codeberg.org/login/oauth/authorize
-  site_domain: https://stefenmargs-eleventy-cms-template.vercel.app/
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  site_domain: jovial-kitten-655209.netlify.app
 
 media_folder: "src/media/assets"
 public_folder: "src/media"
 
-site_url: https://stefenmargs-eleventy-cms-template.vercel.app/
+site_url: https://jovial-kitten-655209.netlify.app
 
 collections:
 
